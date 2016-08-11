@@ -82,7 +82,7 @@ export default class DateTimePickerTime extends Component {
 
               <td className="separator"></td>
 
-              <td><button className="btn btn-primary" onClick={this.props.togglePeriod} type="button">{this.props.selectedDate.format("A")}</button></td>
+              <td><a className="btn btn-primary" onClick={this.props.togglePeriod}>{this.props.selectedDate.format("A")}</a></td>
             </tr>
 
             <tr>
